@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  background-color: black;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.button-logout{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: .75rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  background : rgba(255, 255, 0, 0.45);
+  padding: 0.5rem;
+  border: none;
+  border-radius: .5rem;
+}
+
+.button-logout:hover{
+  background : rgba(255, 255, 0, .70);
+  transition: 300ms;
+}

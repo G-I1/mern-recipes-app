@@ -1,0 +1,12 @@
+.auth_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.bar{
+    width: .25rem;
+    margin: 2.5rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: .5rem;
+}

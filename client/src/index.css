@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Zeyada', cursive;
+}
+
+.App{
+    min-height:  100vh;
+    min-height:  100dvh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+button , input{
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}

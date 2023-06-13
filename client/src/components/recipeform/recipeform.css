@@ -1,0 +1,179 @@
+/* card container styling*/
+.recipe_form-container {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+/* card header styling */
+
+.recipe_form-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.recipe_form-header .title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.recipe-header-infos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.recipe-header-info {
+  display: flex;
+  padding: 0.15rem;
+  align-items: center;
+}
+
+.recipe-header-info:nth-child(1) {
+  grid-column: span 3;
+}
+
+.recipe-header-info label {
+  width: max-content;
+  padding: 0 0.25rem 0;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  font-weight: 700;
+}
+
+.recipe-header-info input[name="name"] {
+  width: 100%;
+  padding: 0.15rem 0.5rem 0.15rem;
+}
+
+.recipe-header-info input:not([name="name"]) {
+  padding: 0.15rem 0.5rem 0.15rem;
+  width: 50px;
+}
+
+/* card body styling */
+.recipe_form-body {
+}
+
+.recipe-body-infos {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.recipe-body-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+}
+
+.recipe-body-info:nth-child(1) {
+  width: 30%;
+}
+.recipe-body-info:nth-child(2) {
+  flex-grow: 1;
+}
+
+.recipe-body-info label {
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  padding: 0.15rem;
+}
+
+.indredients-list-items {
+  display: flex;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.indredients-list-items input {
+  width: 100%;
+  border: none;
+}
+
+.indredients-list-items .button-icon{
+  background: none;
+  border: none;
+  border-radius: 50%;
+  margin: 0.15em;
+  width: 1.5rem;
+  height: auto;
+}
+
+.indredients-list-items .button-icon:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.1);
+  transition: 200ms;
+}
+
+.recipe-body-info textarea{
+  resize: none;
+  margin: 0.5rem;
+  border: none;
+  padding: 5px 20px;
+  min-height: 150px;
+  max-height: 450px;
+  overflow: hidden;
+  outline: none;
+  line-height: 31px;
+  background-attachment: local;
+  background-image:
+      linear-gradient(to right, rgb(255, 255, 255) 10px, transparent 10px),
+      linear-gradient(to left, rgb(255, 255, 255) 10px, transparent 10px),
+      repeating-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255) 30px, #a1a1a1 30px, #a1a1a1 31px, rgb(255, 255, 255) 31px);
+}
+
+
+/* card footer styling */
+.recipe_form-footer {
+}
+
+.recipe-footer-infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-footer-info {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.recipe-footer-info label {
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  padding: 0.15rem;
+}
+
+.recipe-footer-info input {
+  padding: 0 0.25rem 0;
+  flex-grow: 1;
+}
+
+.recipe-footer-infos button {
+  width: fit-content;
+  background-color: white;
+  font-size: 0.6rem;
+  font-weight: 700;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.recipe-footer-infos button:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.1);
+  transition: 200ms;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
